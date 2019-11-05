@@ -1,0 +1,7 @@
+***Why attention works better than single squashed context vector?
+By letting the decoder have an attention mechanism, we relieve the
+encoder from the burden of having to encode all information in the source sentence into a fixed
+length vector. With this new approach the information can be spread throughout the sequence of
+annotations, which can be selectively retrieved by the decoder accordingly
+
+***principle of bidirectional rnn
